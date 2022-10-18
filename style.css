@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    background-color: black;
+    line-height: 1.5;
+}
+
+.card {
+    background-color: black;
+    padding: 18px;
+    width: 400px;
+    margin: 50% auto;
+    box-shadow: 0 0px 7px rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0px 40px rgb(255, 255, 255);
+}
+
+.basic-font {
+    font-family: 'vinny';
+    color: white;
+    text-align: center;
+}
+
+.btn2 {
+    margin-left: 130px;
+    font-family: 'vinny';
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 1rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn {
+    margin-left: 15px;
+    font-family: 'vinny';
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 1rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn2:hover {
+    color: white;
+    background: rgb(255, 141, 10);
+}
+
+.btn:hover {
+    color: white;
+    background: rgb(22, 129, 230);
+}
+
+.couse-font {
+    color: white;
+    font-family: 'urbane';
+    text-align: center;
+}
+
+@font-face {
+    font-family: "vinny"; 
+    src: url("vinnytsia-sans-bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+@font-face {
+    font-family: "urbane"; 
+    src: url("Urbane-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
